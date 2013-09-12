@@ -1,0 +1,20 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="F1TippingUI.Test"
+	x:Name="Window"
+	Title="Test"
+	Width="640" Height="480">
+
+	<Grid x:Name="LayoutRoot">
+		<DockPanel HorizontalAlignment="Left" LastChildFill="True" Margin="10,10,0,0" VerticalAlignment="Top" Width="Auto">
+			<ToolBarPanel DockPanel.Dock="Top">
+				<ComboBox HorizontalAlignment="Left" Width="100"/>
+			</ToolBarPanel>
+		<DockPanel LastChildFill="False" Margin="0,0,0,0">
+			<Grid Height="100" VerticalAlignment="Top" Width="100"/>
+			<Grid Height="100" VerticalAlignment="Top" Width="100"/>
+		</DockPanel>
+		</DockPanel>
+	</Grid>
+</Window>
